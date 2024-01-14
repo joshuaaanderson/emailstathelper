@@ -18,10 +18,11 @@ Quick Tutorial to get Stats from your gmail (or any Imap compliant e-mail servic
 3. add a UI frontend for keeping track of metrics graphically (make it pretty)
 
 # Analyze for the results
+```sql
 SELECT email_from,
        Count(*)
 FROM   emails
 WHERE  source = 'Gmail'
 GROUP  BY email_from
 ORDER  BY 2 
-
+```
