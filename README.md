@@ -5,7 +5,7 @@ Quick Tutorial to get Stats from your gmail (or any Imap compliant e-mail servic
 2. Use someone else's template found on the Internet (https://medium.com/@akinremiolumide96/reading-email-data-with-node-js-cdacaa174cc7)
 3. Create a directory npm -y init
 4. Add pg, Imap, and mailparser (npm install pg, npm install imap, npm install mailparser)
-5. Modify it to import my Data into postgres (see my file)
+5. Modify it to import my Data into postgres (https://github.com/joshuaaanderson/emailstathelper/blob/main/read_emails.js)
 6. Analyze for the results
 
 # helper info
