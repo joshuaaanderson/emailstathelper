@@ -6,7 +6,7 @@ Quick Tutorial to get Stats from your gmail (or any Imap compliant e-mail servic
 3. Create a directory npm -y init
 4. Add pg, Imap, and mailparser (npm install pg, npm install imap, npm install mailparser)
 5. Modify it to import my Data into postgres (https://github.com/joshuaaanderson/emailstathelper/blob/main/read_emails.js)
-6. Analyze for the results
+6. Analyze for the results (https://github.com/joshuaaanderson/emailstathelper/blob/main/analyze_inbox_results.sql)
 
 # helper info
 1. In order to use gmail without any hoops you have to use the google app password generator. (https://support.google.com/accounts/answer/185833?hl=en)
