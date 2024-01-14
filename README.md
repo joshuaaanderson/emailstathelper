@@ -13,9 +13,9 @@ Quick Tutorial to get Stats from your gmail (or any Imap compliant e-mail servic
 2. You might need to turn off 2fa and re-enable it for it to work.
 
 # Other Opportunities
-1. select last date from the DB and only pull in new records since the last e-mail retrieved
-2. store a copy of the database in the table
-3. add a UI frontend for keeping track of metrics graphically (make it pretty)
+1. Select last date from the DB and only pull in new records since the last e-mail retrieved.
+2. Store a copy of the database in the table.
+3. Add a UI frontend for keeping track of metrics graphically (top sender, historical metrics, etc).
 
 # Analyze for the results
 ```sql
